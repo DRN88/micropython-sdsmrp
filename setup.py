@@ -8,16 +8,16 @@ sys.path.append("..")
 import sdist_upip
 
 setup(
-    name="micropython-sdsmrp",
-    version="0.1.3",
+    name="micropython-udsmrp",
+    version="1.0.0",
     description="Simple DSMR Parser module for MicroPython",
     long_description="Simple DSMR Parser module for MicroPython",
-    url="https://github.com/DRN88",
-    author="Gorkhaan",
+    url="https://github.com/DRN88/micropython-udsmrp",
+    author="DRN88",
     author_email="gorkhaan@gmail.com",
-    maintainer="Gorkhaan",
+    maintainer="DRN88",
     maintainer_email="gorkhaan@gmail.com",
     license="MIT",
     cmdclass={"sdist": sdist_upip.sdist},
-    packages=["sdsmrp"],
+    packages=["udsmrp"],
 )

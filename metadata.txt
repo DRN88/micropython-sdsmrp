@@ -1,0 +1,5 @@
+srctype = micropython-lib
+type = module
+version = 1.0.0
+desc = A simple DSMR Parser for Micropython
+long_desc = A simple DSMR Parser for Micropython
